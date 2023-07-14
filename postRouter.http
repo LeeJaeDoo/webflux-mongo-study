@@ -1,0 +1,12 @@
+###
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "content": "content2"
+}
+
+###
+GET http://localhost:8080/posts/64b168c65f73193a31503da3
+Content-Type: application/json
